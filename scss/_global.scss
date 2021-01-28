@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 80%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #17181a;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+
+#logo {
+    color: #fff;
+    font-family: "Abril Fatface", sans-serif;
+}
+
+h2 {
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(226, 226, 226);
+}
+
+
+
+
+
+
+
+// containers
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}

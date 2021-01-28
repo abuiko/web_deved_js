@@ -1,0 +1,62 @@
+.slide {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #17181a;
+}
+
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-basis: 25rem;
+    padding-left: 5rem;
+    position: relative;
+
+    h2 {
+        margin: 0;
+    }
+
+    p {
+        padding: 3rem 0rem;
+
+    }
+
+    .explore {
+        padding: 1rem 2rem;
+        background: none;
+        color: #fff;
+        border: 1px solid #fff;
+        text-decoration: none;
+        align-self: flex-start;
+        cursor: pointer;
+    }
+}
+
+.hero-img {
+    position: relative;
+    flex: 1;
+    flex-basis: 25rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.mountain-span {
+    color: rgb(255, 139, 93);
+}
+
+.hike-span {
+    color: rgb(86, 124, 228);
+}
+
+.fashion-span {
+    color: rgb(167, 110, 231);
+}
