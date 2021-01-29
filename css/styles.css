@@ -207,10 +207,10 @@ p {
 .reveal-text {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 150%;
   background: #17181a;
   left: 0;
-  top: 0;
+  top: -15%;
 }
 
 .cursor {
@@ -219,5 +219,9 @@ p {
   border: 2px solid #000;
   border-radius: 50%;
   position: absolute;
+}
+
+.scrollmagic-pin-spacer {
+  position: static !important;
 }
 /*# sourceMappingURL=styles.css.map */
